@@ -7,8 +7,8 @@
     <version>3.0.0</version>
     <packaging>jar</packaging>
 
-    <name>Pip.Services RPC</name>
-    <description>Networking and communication platform for Pip.Services in Java</description>
+    <name>Pip.Services gRPC</name>
+    <description>GRPC calls for Pip.Services in Java</description>
     <url>http://www.github.com/pip-services/pip-services</url>
 
     <licenses>
