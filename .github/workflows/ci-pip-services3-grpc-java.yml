@@ -1,4 +1,4 @@
-name: Pip.Services RPC toolkit in Java
+name: Pip.Services gRPC toolkit in Java
 
 on: 
   push:
