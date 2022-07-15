@@ -360,17 +360,6 @@ public abstract class GrpcService implements IOpenable, IConfigurable, IReferenc
 }
 
 
-@FunctionalInterface
-interface GrpcFunc<T, R> {
-    void apply(T request, R responseObserver);
-}
-
-@FunctionalInterface
-interface InterceptorFunc {
-    <ReqT, RespT> ServerCall.Listener<ReqT> apply(ServerCall<ReqT, RespT> call, Metadata headers, ServerCallHandler<ReqT, RespT> next);
-}
-
-
 class Interceptor implements ServerInterceptor {
     private final InterceptorFunc _interceptor;
 

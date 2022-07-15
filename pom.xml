@@ -4,7 +4,7 @@
 
     <groupId>org.pipservices</groupId>
     <artifactId>pip-services3-grpc</artifactId>
-    <version>3.0.0</version>
+    <version>3.0.1</version>
     <packaging>jar</packaging>
 
     <name>Pip.Services gRPC</name>
