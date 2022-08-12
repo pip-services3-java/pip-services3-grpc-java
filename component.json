@@ -1,6 +1,6 @@
 {
     "name": "pip-services3-grpc",
-    "type": "microservice",
+    "type": "module",
     "language": "java",
     "version": "3.0.1",
     "build": 0,
